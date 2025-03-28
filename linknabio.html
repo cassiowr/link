@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Link na Bio - Solução simples e eficaz para divulgar seus produtos e aumentar suas vendas sem precisar de um site.">
+    <meta property="og:title" content="Link na Bio - Conecte e Venda seus Produtos">
+    <meta property="og:description" content="Aumente sua visibilidade e converta seguidores em clientes com um link simples e eficaz.">
+    <meta property="og:image" content="https://www.exemplo.com/imagem-relacionada.jpg">
+    <meta property="og:url" content="https://www.exemplo.com">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="link na bio, marketing digital, divulgação, vendas online, aumentar vendas">
+    <title>Link na Bio - Solução Profissional para Vendas Online</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome para ícones -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #4a90e2;
+            margin-bottom: 20px;
+        }
+
+        .intro h1 {
+            font-size: 30px;
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #357ab7;
+        }
+
+        /* Benefícios */
+        .benefits {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .benefit-item {
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefit-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #4a90e2;
+        }
+
+        .benefit-item p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .icon {
+            font-size: 30px;
+            color: #4a90e2;
+            margin-bottom: 15px;
+        }
+
+        /* Chamar para Ação */
+        #cta {
+            margin-top: 50px;
+            background-color: #f2f2f2;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        #cta h2 {
+            font-size: 28px;
+            color: #333;
+        }
+
+        #cta p {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        /* Rodapé */
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #bbb;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .intro h1 {
+                font-size: 24px;
+            }
+
+            .cta-button {
+                padding: 12px 24px;
+                font-size: 16px;
+            }
+
+            .benefits {
+                grid-template-columns: 1fr;
+            }
+
+            .benefit-item {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">Link na Bio</div>
+        </header>
+
+        <!-- Introdução -->
+        <section class="intro">
+            <h1>Transforme Seguidores em Clientes</h1>
+            <p>Promova seus produtos e serviços de maneira simples e eficaz com um único link. Aumente sua visibilidade, engajamento e conversões sem a necessidade de um site complexo.</p>
+            <a href="#cta" class="cta-button" onclick="sendEmail()">Comece Agora</a>
+        </section>
+
+        <!-- Benefícios -->
+        <section class="benefits">
+            <!-- Novo Benefício: Seja Encontrado no Google -->
+            <div class="benefit-item" style="grid-column: span 2;">
+                <i class="fas fa-search icon"></i>
+                <h3>Seja Encontrado no Google</h3>
+                <p>As páginas são desenvolvidas para serem facilmente indexadas pelo Google, ajudando a melhorar sua visibilidade e posicionamento nos motores de busca.</p>
+            </div>
+
+            <div class="benefit-item">
+                <i class="fas fa-shield-alt icon"></i>
+                <h3>Segurança Garantida</h3>
+                <p>Proteção com criptografia avançada para garantir a segurança de seus dados pessoais e dos seus clientes, como e-mails, telefones e mais.</p>
+            </div>
+
+            <div class="benefit-item">
+                <i class="fas fa-certificate icon"></i>
+                <h3>Certificado Digital</h3>
+                <p>Aumente a confiança dos seus clientes com o certificado digital HTTPS incluso, proporcionando mais segurança e credibilidade.</p>
+            </div>
+
+            <div class="benefit-item">
+                <i class="fas fa-globe icon"></i>
+                <h3>Domínio Personalizado</h3>
+                <p>Adquira um domínio exclusivo registrado em seu nome para maior profissionalismo e credibilidade, como: seunome.com.br ou suaempresa.com.br.</p>
+            </div>
+
+            <div class="benefit-item">
+                <i class="fas fa-envelope icon"></i>
+                <h3>E-mail Profissional</h3>
+                <p>Crie um e-mail personalizado com seu domínio para uma comunicação mais eficiente e profissional com seus clientes. Exemplo: contato@seunome.com.br.</p>
+            </div>
+        </section>
+
+        <!-- Chamada para Ação -->
+        <section id="cta">
+            <h2>Pronto para alavancar seu negócio?</h2>
+            <p>Comece agora e aumente suas vendas com um link simples e eficaz para sua bio, compartilhamento e mais!</p>
+            <a href="#cta" class="cta-button" onclick="sendEmail()">Criar Agora</a>
+        </section>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>&copy; <span id="year"></span> WR Soluções em TI. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Atualiza o ano no rodapé
+        document.getElementById("year").innerText = new Date().getFullYear();
+
+        // Função para enviar e-mail ao clicar nos botões
+        function sendEmail() {
+            window.location.href = "mailto:cassio@wr.eti.br?subject=Interesse em Link na Bio&body=Gostaria de saber mais sobre a solução Link na Bio.";
+        }
+    </script>
+
+</body>
+</html>
